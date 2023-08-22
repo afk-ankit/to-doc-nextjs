@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 
 let connected = false;
-33;
 export const connectDb = async () => {
   try {
     if (!connected) {
